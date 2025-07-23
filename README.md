@@ -15,7 +15,7 @@
 - streamlit: 1.47.0
 
 ### Build
-Para que o Agente Groq seja disponibilizado é preciso criar uma chave no site `https://groq.com/` em seguida criar um arquivo .env dentro da pasta ´src` e adicionar o atributo `GROQ_API_KEY`. Exemplo: GROQ_API_KEY=SUACHAVEGROQ
+Para que o Agente Groq seja disponibilizado é preciso criar uma chave no site `https://groq.com/` em seguida criar um arquivo .env dentro da pasta `src` e adicionar o atributo `GROQ_API_KEY`. Exemplo: GROQ_API_KEY=SUACHAVEGROQ
 
 - Para preparar o ambiente execute os seguintes comandos:
     - 1 - Entrar na pasta do projeto
