@@ -12,6 +12,7 @@
 - agents: 1.4.0
 - typer: 0.16.0
 - sqlite: 3.50.3
+- streamlit: 1.47.0
 
 ### Build
 Para que o Agente Groq seja disponibilizado é preciso criar uma chave no site `https://groq.com/` em seguida criar um arquivo .venv dentro da pasta ´src` e adicionar o atributo `GROQ_API_KEY`. Exemplo: GROQ_API_KEY=SUACHAVEGROQ
@@ -28,5 +29,6 @@ Para que o Agente Groq seja disponibilizado é preciso criar uma chave no site `
     - listar os dados: `python -m cli_test get-cars
 
     - Testar a conexão com server MCP: `python -m clent_test`
-    - Interagir com chat/client: `python -m chat`
+    - Interagir com chat/client via CLI: `python -m chat`
+    - Interagir com chat/client via Streamlit: `streamlit run streamlit.py`
     - Executar somente o server MCP: `mcp dev server.py`, ele vai abrir em uma interface web, é necessario ter o `nodejs`instalado.
